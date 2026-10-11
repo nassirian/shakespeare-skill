@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shakespeare"
+  short_description: "Write and revise prose that reads like a skilled person wrote it"
+  default_prompt: "Use $shakespeare to write or revise this text so it reads naturally, in my voice, without the usual AI-writing habits. Keep every fact and quotation."
