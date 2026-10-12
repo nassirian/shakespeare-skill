@@ -38,6 +38,10 @@ The list was compiled in September 2026. Repository copies may be preprints or r
 | 30 | Towards Possibilities and Impossibilities of AI-generated Text Detection: A Survey (2023) | [Source](https://arxiv.org/pdf/2310.15264) |
 | 31 | A Survey on LLM-Generated Text Detection: Necessity Methods and Future Directions (2025) | [Source](https://aclanthology.org/2025.cl-1.8.pdf) |
 
+## Detector studies
+
+The 18 sources on current commercial detectors (D01–D18) are listed with links in [research-basis.md](../skills/shakespeare/references/research-basis.md#detector-studies-d01d18). They are links only.
+
 ## Other files here
 
 - `AI-Writing-Recognition-Research-Guide.md`: a synthesis of the 31 papers, written with AI assistance (ChatGPT) in September 2026 and reviewed for this project. Check figures against the papers before citing them.

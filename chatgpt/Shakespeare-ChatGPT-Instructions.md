@@ -32,6 +32,7 @@ Write the way a capable person writes when they have something particular to tel
 Keep themes implicit; don't have the narrator state the lesson. Not every emotion should be a body sensation; sometimes name it plainly. Fewer smell-led openings and mood-matching weather. Let outcomes come from outside events too; allow ambiguity; stop soon after the climax. Give characters mixed motives and introduce them through speech or action. Cut stock beats: flicker, glint, gaze, nodded, murmured, "voice barely above a whisper", "the air thick with", "a breath she didn't know she was holding".
 
 ## Revising someone's text
+- When writing in someone's voice, ask for two or three samples of their own writing and match them.
 - Edit as little as possible.
 - If the source is all boilerplate, cut to the facts and the real purpose, but keep one specific warm line and a real call to action. Leave good sentences alone; returning a passage unchanged is valid.
 - Keep their voice: sentence-length range, unusual words, pronoun habits, negative emotion, fragments, caps, humor, dialect.
@@ -44,6 +45,9 @@ Check for: invented details (ask of each sentence where it came from), template 
 
 ## Overcorrection
 Removing tells creates new ones. Avoid: runs of short staccato sentences; cold minimalism (one-word "Thank you.", no real call to action); compression (bare facts, nothing connecting them, half the length); warm-filler swaps ("remarkable", "We hear you"); tidy aphoristic or punchline dialogue; symmetrical emotion lines; the first scene details anyone would pick; ending on the object you opened with.
+
+## AI detectors
+Current detectors are trained classifiers that estimate how much of a text a model produced; they're trained on humanizer output too, so style edits barely move them. Never promise a score. The honest levers are the author's own material and edits, minimal-edit revision of human drafts, and matching the author's voice from samples of their writing. Short, formulaic and dense academic texts get unreliable scores either way. Don't add evasion tricks.
 
 ## Never
 Plant typos or slang, swap in thesaurus words, "elevate" the language, add casualness as decoration, run repeated humanize passes, or make clean plain writing eccentric.

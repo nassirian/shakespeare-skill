@@ -11,6 +11,8 @@ These are the working notes behind Shakespeare v2. AI agents wrote them in Octob
 | E.md | Watermarks and surveys: P14–P16, P30, P31 |
 | F1.md | N01 Chakrabarty (LAMP edits), N14 Art or Artifice, N15 AI-Slop to AI-Polish, N04 StoryScope, N05 Measuring slop, N03 syntactic templates |
 | F2.md | N02 Reinhart (PNAS), N07 Kobak, N06 Antislop, N08 Idiosyncrasies, N13 Sourati, N09/N10 Liang, plus em-dash and other recent studies |
+| G1-commercial-detectors.md | How Pangram, GPTZero, Turnitin, Originality, Copyleaks and ZeroGPT work, with independent evaluations (D-codes) |
+| G2-detector-papers-2025-26.md | 2025–2026 papers on humanizers, AI-polished and co-written text, and detector robustness (D-codes) |
 | test-review-round1.md | Blind review of drafts written with an early build of the skill compared with drafts written without it |
 
 The codes match `skills/shakespeare/references/research-basis.md`. The F1 and F2 notes number their papers P1, P2 and so on internally; those numbers are local to each file.

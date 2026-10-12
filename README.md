@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  A writing skill for Claude, ChatGPT and Codex. It drafts and edits prose so it reads like a capable person wrote it, following rules drawn from 48 research papers on how AI text differs from human writing.
+  A writing skill for Claude, ChatGPT and Codex. It drafts and edits prose so it reads like a capable person wrote it, following rules drawn from 66 research sources on how AI text differs from human writing and how detectors judge it.
 </p>
 
 <p align="center">
@@ -54,16 +54,17 @@ Read the output as a list of places to look. Human writing trips some of these f
 
 ## Research
 
-The rules draw on two sets of papers:
+The rules draw on three sets of sources:
 
 - 31 on detecting AI text (2019–2026), including GLTR, DetectGPT, Binoculars, Ghostbuster, RAID, MAGE, the watermarking papers, the study showing detectors are biased against non-native writers, and Russell et al.
 - 17 newer studies of LLM style (2024–2026): professional writers' edits of model prose (Chakrabarty et al.), grammatical differences between LLM and human writing (Reinhart et al., *PNAS*), narrative patterns in AI fiction (StoryScope), measurements of "slop", Antislop, excess vocabulary in scientific abstracts, and the flattening of individual voice (*Nature Human Behaviour*).
+- 18 on how current detectors work (2024–2026): technical reports from Pangram, GPTZero and Turnitin, independent benchmarks (NBER, Epoch AI), and studies of humanizers, AI-polished text and human post-editing (ACL, NAACL, NeurIPS, ICLR).
 
 [research-basis.md](skills/shakespeare/references/research-basis.md) links each rule to its sources and grades the evidence. The [research folder](research) has links to every paper. The PDFs aren't in the repo, but a script downloads them.
 
 ## Limits
 
-Shakespeare is an editing method. It can't prove who wrote something or hide it, and it doesn't promise any detector score. Two findings from the research matter here: structural and statistical signals survive surface edits, and detectors misfire on plain human writing, especially from non-native writers. If you're required to disclose AI use, disclose it.
+Shakespeare is an editing method. It can't prove who wrote something or hide it, and it doesn't promise any detector score. Current detectors estimate how much of a text a model produced, so a page Claude drafted will usually score as AI however well it's edited. What lowers that honestly is your own material and your own edits; [detectors.md](skills/shakespeare/references/detectors.md) explains why. Two findings from the research matter here: structural and statistical signals survive surface edits, and detectors misfire on plain human writing, especially from non-native writers. If you're required to disclose AI use, disclose it.
 
 ## License and credits
 

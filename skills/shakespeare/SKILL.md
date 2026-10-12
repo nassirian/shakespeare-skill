@@ -17,6 +17,8 @@ People who read a lot of LLM output can spot it almost every time, and single wo
 
 **Inventory the real specifics.** List the names, numbers, dates, examples, quotes and first-hand details you actually have from the user or the sources. Write from them. If the piece needs specifics you don't have, ask, or leave clearly marked placeholders in a draft. Never invent people, quotes, statistics, studies, anecdotes or experiences to make writing vivid. The same goes for small things: outcomes ("the kitchen is calmer"), mechanisms, settings, policies, offers, motives. Models reach for these to fill space. A fabricated detail is worse than a vague one.
 
+**Ask for voice samples.** When the user wants text in their own voice, two or three samples of their real writing beat any description of it. Match their sentence length, vocabulary, humor and habits from the samples. People who hand-edit an AI draft to sound like themselves mostly remove dashes and add contractions, and the result stays closer to LLM style than to their own writing (D05).
+
 **Decide what to leave out.** Background the reader didn't ask for, definitions they know, a "why this matters" paragraph, a list of considerations, the history of the topic. Readers judge filler and off-topic content as the main sign of low-quality AI text.
 
 **Don't pad, but deliver the piece.** LLM documents run about a fifth longer than comparable human ones, and expanding notes into fluent filler is how the machine signal gets into text. If the user asked only for a cleanup, keep the density of their notes. If they asked for a blog post or an essay, deliver one, within about 15% of any requested length. A stub that only lists the facts fails the assignment, and readers notice that compression too.
@@ -92,7 +94,7 @@ See [fiction](references/fiction.md) for detail. In short:
 
 ## 3. Revising someone else's text
 
-- **Edit as little as you can.** When an LLM is asked to polish human writing, it changes it heavily toward the model's preferred form, and that is where the fingerprint comes from. Leave good sentences alone. Returning a passage unchanged is a valid edit.
+- **Edit as little as you can.** When an LLM is asked to polish human writing, it changes it heavily toward the model's preferred form, and that is where the fingerprint comes from. Leave good sentences alone. Returning a passage unchanged is a valid edit. Even a light AI polish can get a human draft flagged by detectors (D02).
 - **Keep the author's voice markers:** their range of sentence length, unusual words, pronoun habits, emotion words (negative ones included), fragments, caps for emphasis, interjections, dialect and humor. LLM rewrites flatten these and push every author toward the same upbeat, measured voice. Don't raise the positivity.
 - **Don't upgrade words.** use→employ, show→demonstrate or showcase, need→require, change→modify, said→emphasized, "big concern"→"significant concern" are all moves toward machine text. Don't add "novel", "crucial", "importantly", or connective frames like "To address these limitations,".
 - **Fix errors without re-voicing.** Correct grammar and clarity problems the author would want fixed. Keep non-standard but deliberate choices.
@@ -133,7 +135,11 @@ Removing the usual tells tends to produce new ones. Test drafts made with this s
 - **Symmetrical emotion lines.** "He was grateful, and a little angry about being grateful."
 - **Default scenes.** Two models given the same story prompt produced nearly the same story (vending-machine crackers, "he's comfortable", a monitor chirping down the hall, a childhood memory of the father). If your scene could be anyone's, choose a less obvious detail, event or turn.
 
-## 6. What not to do
+## 6. When the user asks about AI detectors
+
+Read [detectors](references/detectors.md) first. In short: current detectors are trained classifiers that estimate how much of a text a model produced. They are trained on humanizer output too, so style edits move the score only a little. The honest levers are the author's own material, the author's own edits, minimal-edit revision of human drafts, and writing in the author's voice from real samples. Short and formulaic texts (blurbs, landing pages, recipes, reviews) and dense academic prose get unreliable scores either way. Never promise a score, and don't add evasion tricks.
+
+## 7. What not to do
 
 - Don't plant typos, slang, odd punctuation, look-alike characters or deliberate grammar errors.
 - Don't swap synonyms or "elevate" the language. Thesaurus-style variation reads worse and keeps the underlying structure.
@@ -154,5 +160,6 @@ These are editorial methods drawn from research on how AI text differs from huma
 - [pattern-catalog.md](references/pattern-catalog.md): full pattern list with word lists, evidence and caveats. Read it when doing a thorough edit or when a pattern needs checking.
 - [fiction.md](references/fiction.md): narrative-level patterns for stories and creative nonfiction.
 - [editing-examples.md](references/editing-examples.md): before-and-after examples. Read them when a choice is unclear.
+- [detectors.md](references/detectors.md): how current AI detectors work, what changes their scores honestly, and where they misfire. Read it when the user mentions a detector.
 - [research-basis.md](references/research-basis.md): the studies behind each rule and their limits. Read it when the user asks why.
 - `scripts/pattern_check.py`: an optional standard-library checker that counts surface patterns.
